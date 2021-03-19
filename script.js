@@ -9,13 +9,21 @@ document.getElementById("buy_button").addEventListener("click", rewritePriceAirf
 document.getElementById("buy_button2").addEventListener("click", rewritePriceAirmax);
 
 function rewritePriceAirmax() {
-    document.getElementById("pair").innerHTML = "NIke Airmax V5";
-    document.getElementById("pricetag").innerHTML = "$200";
+    // document.getElementById("").innerHTML = "NIke Airmax V5";
+    // document.getElementById("").innerHTML = "$200";
+    document.getElementById("empty_div").innerHTML = `
+    <li>
+    Airmax 200$
+    </li>
+    `
 }
 
 function rewritePriceAirforce() {
-    document.getElementById("pair").innerHTML = "NIke Airforce 1";
-    document.getElementById("pricetag").innerHTML = "$200";
+    document.getElementById("empty_div").innerHTML = `
+    <li>
+    Airforce 200$
+    </li>
+    `
 }
 
 function addToCart() {
